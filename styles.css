@@ -1,5 +1,7 @@
 :root {
-    --thatPurple: rgba(128, 0, 255, 1);
+    --thatPurple: rgb(128, 0, 255, 1);
     --lightPurple: rgb(168 85 247);
+    --littlePurple: rgb(250 245 255 / 0.1);
     --borderGray: #d2d6dc;
+    --borderGray2: #d2d6dc60;
 }
