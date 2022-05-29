@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");x
+
 :root {
     --thatPurple: rgb(128, 0, 255, 1);
     --lightPurple: rgb(168 85 247);
     --littlePurple: rgb(250 245 255 / 0.1);
     --borderGray: #d2d6dc;
     --borderGray2: #d2d6dc60;
+    --darkMode: rgba(26, 32, 46, 1);
 }
