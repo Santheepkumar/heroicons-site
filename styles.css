@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap");
+
+:root {
+    --thatPurple: rgb(128, 0, 255, 1);
+    --lightPurple: rgb(168 85 247);
+    --littlePurple: rgb(250 245 255 / 0.1);
+    --borderGray: #d2d6dc;
+    --borderGray2: #d2d6dc60;
+    --darkMode: rgba(26, 32, 46, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+header {
+    background-color: var(--thatPurple);
+    height: 532px;
+    /* background-color: rgb(128, 0, 255, 1); */
+}
+
+.header-links {
+    padding: 1rem;
+}
+.header-link {
+    display: flex;
+}
+.header-link-emoji {
+    width: 1.5rem;
+}
+.header-link-title {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.hero-main-icon img:nth-child(1) {
+    width: 15rem;
+}
+.hero-main-icon img:nth-child(2) {
+    width: 2.2rem;
+    opacity: 60%;
+}
+.hero-license {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+.hero-button {
+    display: flex;
+    background-color: var(--littlePurple);
+    padding: 1.2rem;
+    border-radius: 1rem;
+}
+
+.hero-button-svg-1 {
+    height: 1.2rem;
+    margin-right: 1rem;
+}
+.hero-button-svg-2 {
+    height: 1.2rem;
+    margin-right: 1rem;
+}
+
+.hero-button-title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero-sponsors {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4rem;
+}
